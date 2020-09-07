@@ -1,0 +1,14 @@
+com/techandsolve/yourlogoweb/questions/TheText.java
+ com.techandsolve.yourlogoweb.questions.TheText
+com/techandsolve/yourlogoweb/tasks/Navigate.java
+ com.techandsolve.yourlogoweb.tasks.Navigate
+com/techandsolve/yourlogoweb/userinterface/AccountCreationForm.java
+ com.techandsolve.yourlogoweb.userinterface.AccountCreationForm
+com/techandsolve/yourlogoweb/utils/MsgError.java
+ com.techandsolve.yourlogoweb.utils.MsgError
+com/techandsolve/yourlogoweb/models/UserData.java
+ com.techandsolve.yourlogoweb.models.UserData
+com/techandsolve/yourlogoweb/exceptions/ExceptionError.java
+ com.techandsolve.yourlogoweb.exceptions.ExceptionError
+com/techandsolve/yourlogoweb/userinterface/MainPage.java
+ com.techandsolve.yourlogoweb.userinterface.MainPage
