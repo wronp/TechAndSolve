@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Searching characters through api" skipped="0" tests="1" time="5.98" timestamp="2020-09-07 09:41:08"><testcase name="Search a character"><error message="null" type="java.lang.AssertionError">null</error><system-err>null&#13;
+com.techandsolve.rickandmortyapi.stepsdefinitions.RestServiceStepsdefinition.theUserVerifyThatNameCharacterWasInTheGetMethod(RestServiceStepsdefinition.java:47)&#13;
+✽.The user verify that name character was in the get method(src/test/resources/features/rest_service.feature:11)&#13;
+</system-err></testcase></testsuite>

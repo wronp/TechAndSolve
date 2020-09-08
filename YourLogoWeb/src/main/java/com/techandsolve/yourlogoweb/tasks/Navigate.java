@@ -36,7 +36,6 @@ public class Navigate implements Task {
                 Click.on(AccountCreationForm.STATE_TXT_FIELD),
                 Enter.theValue(userData.getPostalCode()).into(AccountCreationForm.POSTAL_CODE_TXT_FIELD),
                 Enter.theValue(userData.getMobilePhone()).into(AccountCreationForm.MOBILE_PHONE_TXT_FIELD),
-
                 WaitUntil.the(AccountCreationForm.SUBMIT_BUTTON_FORM,
                         WebElementStateMatchers.isPresent()),
                 Click.on(AccountCreationForm.SUBMIT_BUTTON_FORM));

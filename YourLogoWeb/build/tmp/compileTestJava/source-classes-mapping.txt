@@ -1,4 +1,6 @@
 com/techandsolve/yourlogoweb/runners/AccountCreation.java
  com.techandsolve.yourlogoweb.runners.AccountCreation
-com/techandsolve/yourlogoweb/stepsdefinitions/AccountCreationStepsdefinition.java
- com.techandsolve.yourlogoweb.stepsdefinitions.AccountCreationStepsdefinition
+com/techandsolve/yourlogoweb/stepsdefinitions/AccountCreationAndSignInStepsdefinition.java
+ com.techandsolve.yourlogoweb.stepsdefinitions.AccountCreationAndSignInStepsdefinition
+com/techandsolve/yourlogoweb/runners/SignIn.java
+ com.techandsolve.yourlogoweb.runners.SignIn

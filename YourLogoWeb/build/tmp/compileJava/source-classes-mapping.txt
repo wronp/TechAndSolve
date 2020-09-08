@@ -8,6 +8,8 @@ com/techandsolve/yourlogoweb/utils/MsgError.java
  com.techandsolve.yourlogoweb.utils.MsgError
 com/techandsolve/yourlogoweb/models/UserData.java
  com.techandsolve.yourlogoweb.models.UserData
+com/techandsolve/yourlogoweb/tasks/LoggingIn.java
+ com.techandsolve.yourlogoweb.tasks.LoggingIn
 com/techandsolve/yourlogoweb/exceptions/ExceptionError.java
  com.techandsolve.yourlogoweb.exceptions.ExceptionError
 com/techandsolve/yourlogoweb/userinterface/MainPage.java

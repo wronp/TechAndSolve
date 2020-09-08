@@ -1,3 +1,8 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'net.serenity-bdd.aggregator'
+
 buildscript {
 
     repositories {
@@ -8,24 +13,27 @@ buildscript {
     }
 }
 
-plugins {
-    id 'java'
-}
-
-apply plugin: 'net.serenity-bdd.aggregator'
 
 group 'com.techandsolve.yourlogoweb'
 version '1.0-SNAPSHOT'
 
 repositories {
+    jcenter()
     mavenCentral()
 }
 
 dependencies {
-    implementation 'net.serenity-bdd:serenity-junit:2.0.81'
-    implementation 'net.serenity-bdd:serenity-core:2.0.81'
-    implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'
-    implementation 'org.hamcrest:hamcrest-all:1.3'
-    implementation 'net.serenity-bdd:serenity-screenplay:2.0.81'
+
+    testCompile 'org.slf4j:slf4j-simple:1.7.7'
+    implementation 'net.serenity-bdd:serenity-core:2.0.15'
+    implementation 'net.serenity-bdd:serenity-screenplay:2.0.15'
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:2.0.15'
+    implementation 'net.serenity-bdd:serenity-rest-assured:2.0.15'
+    implementation 'net.serenity-bdd:serenity-junit:2.0.15'
+    implementation 'net.serenity-bdd:serenity-cucumber:1.9.20'
+    implementation group: 'jline', name: 'jline', version: '2.13'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version:'2.0.15'
+    implementation group: 'com.google.code.gson', name: 'gson', version:'2.8.4'
+    implementation group: 'log4j', name: 'log4j', version: '1.2.17'
 }
 gradle.startParameter.continueOnFailure = true
